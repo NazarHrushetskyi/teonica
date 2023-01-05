@@ -1,0 +1,129 @@
+.footer {
+  margin-top: 320px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 92%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 90px;
+  background: #58dfb1;
+  border-radius: 20px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  z-index: 4;
+  @media (max-width: 799px) {
+    width: 100%;
+    border-radius: 0px 50px;
+  }
+}
+.title {
+  padding-bottom: 50px;
+  @media (max-width: 799px) {
+    margin-top: 50px;
+  }
+  h3 {
+    font-family: "Open Sans";
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 56px;
+    text-align: center;
+    color: #ffffff;
+    @media (max-width: 799px) {
+      font-size: 40px;
+      line-height: 48px;
+      font-weight: 400;
+    }
+  }
+  span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    @media (max-width: 799px) {
+      display: block;
+      width: 272px;
+    }
+  }
+}
+.info {
+  width: 30%;
+  @media (max-width: 799px) {
+    width: 90%;
+  }
+  hr {
+    border-top: #ffffff;
+    border-color: white;
+    margin-bottom: 30px;
+  }
+  hr:last-child {
+    margin-bottom: 50px;
+  }
+  span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: #353449;
+  height: 1600px;
+  z-index: 2;
+  margin-top: -180px;
+  @media (max-width: 799px) {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+}
+.left {
+  padding-top: 250px;
+  padding-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: 799px) {
+    padding-bottom: 40px;
+    padding-left: 40px;
+    }
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    margin-bottom: 70px;
+  }
+}
+.right {
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 799px) {
+  padding-top: 0;
+  margin-left: 50px;
+  padding-bottom: 60px;
+    }
+  span {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+}

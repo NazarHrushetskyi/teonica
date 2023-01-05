@@ -1,0 +1,143 @@
+.buton {
+  background: none;
+  border: 0;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  @media (min-width: 800px) {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+.buton:hover {
+  color: #fff;
+  background-color: #92f1d2;
+  border-radius: 10px;
+}
+.topBT {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  border: 0;
+  width: 170px;
+  height: 48px;
+  background: #57dcaf;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.links {
+  text-decoration: none;
+}
+.head {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  border: 0;
+  width: 170px;
+  height: 48px;
+  background: #92f1d2;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 2;
+  cursor: pointer;
+  @media (max-width: 799px) {
+    display: none;
+  }
+}
+.bottbtn {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  border: 0;
+  width: 170px;
+  height: 48px;
+  background: #353449;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.botsend {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border: 0;
+  width: 94%;
+  height: 48px;
+  background: #353449;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.arrow {
+  margin-left: -5px;
+}
+.arrow2 {
+  margin-left: 10px;
+}
+.first {
+  margin-left: 4px;
+}
+.popup {
+  z-index: 10;
+  display: block;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 15px;
+  background: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 0;
+  @media (max-width: 799px) {
+    margin-left: -6.5rem;
+    margin-right: 3.5rem;
+  }
+  
+  ul {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    @media (max-width: 799px) {
+      align-items: flex-start;
+    }
+    li {
+      padding: 12px 10px;
+      cursor: pointer;
+      color: #000;
+      &.active,
+      &:hover {
+        background: rgba(45, 10, 141, 0.05);
+      }
+
+      &.active {
+        font-weight: bold;
+        color: #92f1d2;
+      }
+
+    }
+  }
+}

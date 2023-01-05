@@ -1,0 +1,52 @@
+.component {
+  margin-top: 240px;
+  //width: 77%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+  @media (max-width: 799px) {
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+.component2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+.component3 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  @media (max-width: 799px) {
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 24px;
+  }
+  @media (max-width: 500px) {
+    width: 90%;
+  }
+}
+.line {
+  margin-bottom: 20px;
+}
